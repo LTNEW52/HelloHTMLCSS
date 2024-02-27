@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    border: 4px  solid  hsl(189, 85%, 51%);
+    border-radius: 20px;
+    color: aquamarine;
+}
+
+p {
+    border-bottom: 4px solid greenyellow;
+    border-top: 4px dotted violet;
+    border-left : 4px groove skyblue;
+    border-right : 4px outset blueviolet;
+
+    border-radius: 10px;
+
+    color:fuchsia;
+}

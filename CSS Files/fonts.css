@@ -1,0 +1,20 @@
+@font-face {
+    src: url(Fonts/Oswald-VariableFont_wght.ttf);
+    font-family: oswald;
+}
+
+@font-face {
+    src: url(Fonts/KodeMono-VariableFont_wght.ttf);
+    font-family: kode mono;
+}
+
+h1 {
+    font-family : oswald , verdana , arial;
+}
+
+p {
+    font-family : "kode mono" ,"lucida console" , "courier new" ;
+    /* font-size : 16px; */ font-size : 1em;
+    font-weight : bold;
+    font-style : italic;
+}

@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color :aqua;
+}
+
+/* #p1 {
+    color :cadetblue;
+}
+
+#p2 {
+    color :chartreuse;
+}
+
+#p3 {
+    color :cyan;
+} */
+
+.odd {
+    color: darkolivegreen;
+}
+
+.even {
+    color: grey;
+}
