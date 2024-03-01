@@ -1,0 +1,22 @@
+#box1 {
+    background-color: aqua;
+    height:100px;
+    width: 100px;
+    /* position: relative;
+    top: 50px;
+    left: 50px; */
+    /* position: fixed; */
+    /* position: absolute; */
+    /* position: sticky;
+    top: 0px; */
+    position: static;
+}
+
+#box2 {
+    background-color: rgb(215, 24, 240);
+    height:50px;
+    width: 50px;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}

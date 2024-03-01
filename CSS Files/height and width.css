@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    /*without it 2 boxes wont float here*/
+}
+
+.container {
+    background-color: aqua;
+    height: 100vh; /*vh means viewport height or all of browser*/
+}
+
+.box {
+    border: 2px solid;
+    background-color: azure;
+    height: auto;
+    width: 50%;
+    float: left;
+    padding: 25px; /*like margin but inside*/
+    /* min-width: 75%; */
+    /* max-width: 25%; */
+    /* min-height: 50%; */
+    max-height: 5%;
+}
