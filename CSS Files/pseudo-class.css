@@ -1,0 +1,51 @@
+/*1
+
+a:link {
+    font-size: 1.3em;
+    color:aqua;
+}
+
+a:hover {
+    font-size: 2em;
+    color:green;
+}
+
+a:active {
+    font-size: 1.6em;
+    color:black;
+}
+
+a:visited {
+    font-size: 0.5em;
+    color:hotpink;
+}
+
+1*/
+
+/*2
+li:hover {
+    background-color: aqua;
+}
+
+li:active {
+    background-color: blue;
+}
+
+li:not(:hover) {
+    background-color: darkred;
+}
+
+li:nth-child(odd) {
+    background-color: greenyellow;
+}
+2*/
+
+#greetings p{
+    background-color: chartreuse;
+    padding: 15px;
+    display: none;
+}
+
+#greetings:hover p{
+    display: block;
+}

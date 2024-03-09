@@ -1,0 +1,17 @@
+#container p {
+    background-color: aqua; /*All child and grandchild*/
+}
+
+/* grandchild means in another part , not direct child */
+
+#container > p {
+    background-color: blueviolet; /*All child but not grandchild*/
+}
+
+#container ~ p {
+    background-color: chartreuse; /*All siblings*/
+}
+
+#container + p {
+    background-color: crimson; /* only next sibling */
+}
