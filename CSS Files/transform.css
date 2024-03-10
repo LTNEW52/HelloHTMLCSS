@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 5px solid;
+    text-align: center;
+    font-size: 10em;
+
+    transform: translateX(100%) rotateZ(125deg) scale(0.7 , 0.7);
+}
+
+#box1 {
+    background-color: aqua;
+    /* transform: translate(150px , 150px); */
+    /* transform: rotateX(180deg);
+    transform: rotateY(180deg);
+    transform: rotateZ(140deg); */
+    /* transform: scale(0.5 , 0.8); */
+    /* transform: skew(125deg , 125deg); */
+    /* transform: translate(100%) rotateZ(145deg) scale(0.5 , 0.5); */
+}
+
+#box2{
+    background-color: chartreuse;
+}
+
+#box3 {
+    background-color: rgb(187, 120, 131);
+}
+
+img {
+    transform: translate(100% , 100%) rotateZ(235deg) scale(2 , 2);
+}

@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    border: 10px solid;
+    height: 90vh;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    /* align-items: baseline; */ /*align the text*/
+    /* flex-wrap: wrap; */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+    /* align-content: center; */
+    /* align-content: space-evenly; */
+    /* align-content: space-between; */
+    /* column-gap: 1em;
+    row-gap: 2em; */
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#box1 {
+    background-color: hsl(0, 67%, 51%);
+    align-self: end;
+    order: -1;
+    
+}
+#box2 {
+    background-color: hsl(61, 67%, 51%);
+    align-self: start;
+    order: 1;
+}
+#box3 {
+    background-color: hsl(140, 67%, 51%);
+    align-self: center;
+    order: -1;
+}
+#box4 {
+    background-color: hsl(303, 67%, 51%);
+    align-self: end;
+    order: 1;
+}

@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(49, 49, 49);
+}
+
+#box {
+    font-size: 10em;
+    background-color: chartreuse;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-timing-function: cubic-bezier(1,-0.31, 0.05, 1.28);
+}
+
+/* #box:hover {
+    animation-name: slideLeft;
+    animation-duration: 5s;
+} */
+
+@keyframes slideLeft {
+    from{transform: translateX(100%) rotateZ(360deg) scale(0.5 , 0.5);
+        background-color: rgb(1, 225, 255)}    
+}
+
+@keyframes slideRight {
+    to{transform: translateX(100%) rotateZ(360deg) scale(0.5 , 0.5);
+        background-color: rgb(1, 225, 255)}    
+}
+
+@keyframes slideUp {
+    from{transform: translateY(100%) rotateZ(360deg) scale(0.5 , 0.5);
+        background-color: rgb(1, 225, 255)}    
+}
+
+@keyframes slideDown {
+    to{transform: translateY(100%) rotateZ(360deg) scale(0.5 , 0.5);
+        background-color: rgb(1, 225, 255)}    
+}
+
+@keyframes rotation {
+    50% {transform: rotatez(360deg);}
+}
+
+@keyframes grow {
+    50% {transform: translate(100% , 100%) scale(3 , 3);}
+}
+
+@keyframes shrink {
+    50% {transform: scale(0.5 , 0.5);}
+}
+
+@keyframes fade {
+    50% {opacity: 10%}
+}
+
+@keyframes colorChange {
+    0% {background-color: rgb(255, 4, 4)}
+    20% {background-color: rgb(251, 255, 5)}
+    40% {background-color: rgb(2, 255, 44)}
+    60% {background-color: rgb(3, 238, 255)}
+    80% {background-color: rgb(103, 9, 255)}
+    100% {background-color: rgb(234, 4, 255)}
+}
+
+@keyframes glow {
+    50%{box-shadow: 2px 2px 50px rgb(0, 255, 213) ;}
+}
+
+img {
+    animation-name: grow;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(1,-0.31, 0.05, 1.28);
+}
